@@ -10,7 +10,7 @@ namespace Elevator
     {
         public int _currentFloor = 1;
         public int _firstFloor = 1;
-        public int _numberOfFloors = 5;
+        public int _numberOfFloors;
         public Queue<int> floorrequests = new Queue<int>();
         public string elevatorMovement = "Up";
         
